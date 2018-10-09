@@ -33,7 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Current plugin version.
  */
-define( 'TEST_EDD_GH_VERSION', '1.0.2' );
+define( 'TEST_EDD_GH_VERSION', '1.0.3' );
 
 define( 'TEST_EDD_GH_UPDATER_URL', 'https://www.1821epollackst.com' );
 

@@ -159,15 +159,15 @@ class Test_EDD_GH_Settings {
 	 * 
 	 * @since 1.2.0
 	 */
-	public function add_trp_activate_button() {
+	public function add_trp_activate_button() { 
 		if( !is_admin() )
 			return;
 		$license_status = get_option( TEST_EDD_GH_LICENSE_STATUS );
-		if( $license_status !== 'valid' && !empty($license_status) ) {
+		if( $license_status !== 'valid'  ) {
 			echo wp_nonce_field( 'trs_activate_test_edd_gh', 'test_edd_gh_nonce' );
 			echo '<input type="submit" class="button-secondary" id="test_edd_gh_activate" name="test_edd_gh_activate" value="Activate" />';
 		}
-		elseif( !empty($license_status) ) {
+		else {
 			echo wp_nonce_field( 'trs_deactivate_test_edd_gh', 'test_edd_gh_nonce' );
 			echo '<input type="submit" class="button-secondary" id="test_edd_gh_deactivate" name="test_edd_gh_deactivate" value="Deactivate" />';
 			
