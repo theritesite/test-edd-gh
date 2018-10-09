@@ -35,9 +35,9 @@ if ( ! defined( 'WPINC' ) ) {
  */
 define( 'TEST_EDD_GH_VERSION', '1.0.0' );
 
-define( 'TEST_EDD_GH_UPDATER_URL', 'https://www.theritesites.com' );
+define( 'TEST_EDD_GH_UPDATER_URL', 'https://www.1821epollackst.com' );
 
-define( 'TEST_EDD_GH_ITEM_ID', 0000 );
+define( 'TEST_EDD_GH_ITEM_ID', 12 );
 
 define( 'TEST_EDD_GH_LICENSE_PAGE', 'the_rite_plugins_settings' );
 
