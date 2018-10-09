@@ -16,7 +16,7 @@
  * Plugin Name:       Test EDD Github Updater
  * Plugin URI:        https://www.theritesites.com/plugins/test-edd-gh
  * Description:       This plugin does awesome things!
- * Version:           1.0.0
+ * Version:           1.0.4
  * Author:            TheRiteSites
  * Author URI:        https://www.theritesites.com
  * License:           GPL-2.0+
@@ -33,7 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Current plugin version.
  */
-define( 'TEST_EDD_GH_VERSION', '1.0.3' );
+define( 'TEST_EDD_GH_VERSION', '1.0.4' );
 
 define( 'TEST_EDD_GH_UPDATER_URL', 'https://www.1821epollackst.com' );
 
